@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0F7C790252523A10020DA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C78F252523A10020DA45 /* AppDelegate.swift */; };
+		F0F7C792252523A10020DA45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C791252523A10020DA45 /* ViewController.swift */; };
+		F0F7C794252523A30020DA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F7C793252523A30020DA45 /* Assets.xcassets */; };
+		F0F7C797252523A30020DA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F7C795252523A30020DA45 /* Main.storyboard */; };
+		F0F7C7A3252523A30020DA45 /* ShuffletheArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7A2252523A30020DA45 /* ShuffletheArrayTests.swift */; };
+		F0F7C7AE252523A30020DA45 /* ShuffletheArrayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7AD252523A30020DA45 /* ShuffletheArrayUITests.swift */; };
+		F0F7C7BF252524240020DA45 /* ShuffleTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7BE252524240020DA45 /* ShuffleTheArray.swift */; };
+		F0F7C7C0252524240020DA45 /* ShuffleTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7BE252524240020DA45 /* ShuffleTheArray.swift */; };
+		F0F7C7C525254D460020DA45 /* NumberofGoodPairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7C425254D460020DA45 /* NumberofGoodPairsTests.swift */; };
+		F0F7C7CA25254D980020DA45 /* NumberOfPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7C925254D980020DA45 /* NumberOfPairs.swift */; };
+		F0F7C7CB25254D980020DA45 /* NumberOfPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7C925254D980020DA45 /* NumberOfPairs.swift */; };
+		F0F7C7D02525534C0020DA45 /* DefragIPAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7CF2525534C0020DA45 /* DefragIPAddressTests.swift */; };
+		F0F7C7D52525539C0020DA45 /* DefragIpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7D42525539C0020DA45 /* DefragIpAddress.swift */; };
+		F0F7C7D62525539C0020DA45 /* DefragIpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7D42525539C0020DA45 /* DefragIpAddress.swift */; };
+		F0F7C7DB252559B10020DA45 /* JewelsandStonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7DA252559B10020DA45 /* JewelsandStonesTests.swift */; };
+		F0F7C7E025255A150020DA45 /* JewelsandStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7DF25255A150020DA45 /* JewelsandStones.swift */; };
+		F0F7C7E125255A150020DA45 /* JewelsandStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7DF25255A150020DA45 /* JewelsandStones.swift */; };
+		F0F7C7E62525E5ED0020DA45 /* NumberOfStepsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7E52525E5ED0020DA45 /* NumberOfStepsTests.swift */; };
+		F0F7C7EB2525E6400020DA45 /* NumberOfSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7EA2525E6400020DA45 /* NumberOfSteps.swift */; };
+		F0F7C7EC2525E6400020DA45 /* NumberOfSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7EA2525E6400020DA45 /* NumberOfSteps.swift */; };
+		F0F7C7F9252635080020DA45 /* ShuffleStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7F8252635080020DA45 /* ShuffleStringTests.swift */; };
+		F0F7C7FE2526356A0020DA45 /* ShuffleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */; };
+		F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0F7C79F252523A30020DA45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F7C784252523A10020DA45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F7C78B252523A10020DA45;
+			remoteInfo = ShuffletheArray;
+		};
+		F0F7C7AA252523A30020DA45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F7C784252523A10020DA45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F7C78B252523A10020DA45;
+			remoteInfo = ShuffletheArray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0F7C78C252523A10020DA45 /* ShuffletheArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffletheArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F7C78F252523A10020DA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0F7C791252523A10020DA45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0F7C793252523A30020DA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0F7C796252523A30020DA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0F7C798252523A30020DA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F7C799252523A30020DA45 /* ShuffletheArray.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShuffletheArray.entitlements; sourceTree = "<group>"; };
+		F0F7C79E252523A30020DA45 /* ShuffletheArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffletheArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F7C7A2252523A30020DA45 /* ShuffletheArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffletheArrayTests.swift; sourceTree = "<group>"; };
+		F0F7C7A4252523A30020DA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F7C7A9252523A30020DA45 /* ShuffletheArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffletheArrayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F7C7AD252523A30020DA45 /* ShuffletheArrayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffletheArrayUITests.swift; sourceTree = "<group>"; };
+		F0F7C7AF252523A30020DA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F7C7BE252524240020DA45 /* ShuffleTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleTheArray.swift; sourceTree = "<group>"; };
+		F0F7C7C425254D460020DA45 /* NumberofGoodPairsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofGoodPairsTests.swift; sourceTree = "<group>"; };
+		F0F7C7C925254D980020DA45 /* NumberOfPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfPairs.swift; sourceTree = "<group>"; };
+		F0F7C7CF2525534C0020DA45 /* DefragIPAddressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefragIPAddressTests.swift; sourceTree = "<group>"; };
+		F0F7C7D42525539C0020DA45 /* DefragIpAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefragIpAddress.swift; sourceTree = "<group>"; };
+		F0F7C7DA252559B10020DA45 /* JewelsandStonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsandStonesTests.swift; sourceTree = "<group>"; };
+		F0F7C7DF25255A150020DA45 /* JewelsandStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsandStones.swift; sourceTree = "<group>"; };
+		F0F7C7E52525E5ED0020DA45 /* NumberOfStepsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfStepsTests.swift; sourceTree = "<group>"; };
+		F0F7C7EA2525E6400020DA45 /* NumberOfSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfSteps.swift; sourceTree = "<group>"; };
+		F0F7C7F8252635080020DA45 /* ShuffleStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleStringTests.swift; sourceTree = "<group>"; };
+		F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleString.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0F7C789252523A10020DA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F7C79B252523A30020DA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F7C7A6252523A30020DA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0F7C783252523A10020DA45 = {
+			isa = PBXGroup;
+			children = (
+				F0F7C78E252523A10020DA45 /* ShuffletheArray */,
+				F0F7C7A1252523A30020DA45 /* ShuffletheArrayTests */,
+				F0F7C7AC252523A30020DA45 /* ShuffletheArrayUITests */,
+				F0F7C78D252523A10020DA45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0F7C78D252523A10020DA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7C78C252523A10020DA45 /* ShuffletheArray.app */,
+				F0F7C79E252523A30020DA45 /* ShuffletheArrayTests.xctest */,
+				F0F7C7A9252523A30020DA45 /* ShuffletheArrayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0F7C78E252523A10020DA45 /* ShuffletheArray */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7C78F252523A10020DA45 /* AppDelegate.swift */,
+				F0F7C791252523A10020DA45 /* ViewController.swift */,
+				F0F7C793252523A30020DA45 /* Assets.xcassets */,
+				F0F7C795252523A30020DA45 /* Main.storyboard */,
+				F0F7C798252523A30020DA45 /* Info.plist */,
+				F0F7C799252523A30020DA45 /* ShuffletheArray.entitlements */,
+				F0F7C7BE252524240020DA45 /* ShuffleTheArray.swift */,
+				F0F7C7C925254D980020DA45 /* NumberOfPairs.swift */,
+				F0F7C7D42525539C0020DA45 /* DefragIpAddress.swift */,
+				F0F7C7DF25255A150020DA45 /* JewelsandStones.swift */,
+				F0F7C7EA2525E6400020DA45 /* NumberOfSteps.swift */,
+				F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */,
+			);
+			path = ShuffletheArray;
+			sourceTree = "<group>";
+		};
+		F0F7C7A1252523A30020DA45 /* ShuffletheArrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7C7A2252523A30020DA45 /* ShuffletheArrayTests.swift */,
+				F0F7C7A4252523A30020DA45 /* Info.plist */,
+				F0F7C7C425254D460020DA45 /* NumberofGoodPairsTests.swift */,
+				F0F7C7CF2525534C0020DA45 /* DefragIPAddressTests.swift */,
+				F0F7C7DA252559B10020DA45 /* JewelsandStonesTests.swift */,
+				F0F7C7E52525E5ED0020DA45 /* NumberOfStepsTests.swift */,
+				F0F7C7F8252635080020DA45 /* ShuffleStringTests.swift */,
+			);
+			path = ShuffletheArrayTests;
+			sourceTree = "<group>";
+		};
+		F0F7C7AC252523A30020DA45 /* ShuffletheArrayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7C7AD252523A30020DA45 /* ShuffletheArrayUITests.swift */,
+				F0F7C7AF252523A30020DA45 /* Info.plist */,
+			);
+			path = ShuffletheArrayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F7C78B252523A10020DA45 /* ShuffletheArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F7C7B2252523A30020DA45 /* Build configuration list for PBXNativeTarget "ShuffletheArray" */;
+			buildPhases = (
+				F0F7C788252523A10020DA45 /* Sources */,
+				F0F7C789252523A10020DA45 /* Frameworks */,
+				F0F7C78A252523A10020DA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuffletheArray;
+			productName = ShuffletheArray;
+			productReference = F0F7C78C252523A10020DA45 /* ShuffletheArray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0F7C79D252523A30020DA45 /* ShuffletheArrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F7C7B5252523A30020DA45 /* Build configuration list for PBXNativeTarget "ShuffletheArrayTests" */;
+			buildPhases = (
+				F0F7C79A252523A30020DA45 /* Sources */,
+				F0F7C79B252523A30020DA45 /* Frameworks */,
+				F0F7C79C252523A30020DA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F7C7A0252523A30020DA45 /* PBXTargetDependency */,
+			);
+			name = ShuffletheArrayTests;
+			productName = ShuffletheArrayTests;
+			productReference = F0F7C79E252523A30020DA45 /* ShuffletheArrayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0F7C7A8252523A30020DA45 /* ShuffletheArrayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F7C7B8252523A30020DA45 /* Build configuration list for PBXNativeTarget "ShuffletheArrayUITests" */;
+			buildPhases = (
+				F0F7C7A5252523A30020DA45 /* Sources */,
+				F0F7C7A6252523A30020DA45 /* Frameworks */,
+				F0F7C7A7252523A30020DA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F7C7AB252523A30020DA45 /* PBXTargetDependency */,
+			);
+			name = ShuffletheArrayUITests;
+			productName = ShuffletheArrayUITests;
+			productReference = F0F7C7A9252523A30020DA45 /* ShuffletheArrayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F7C784252523A10020DA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F0F7C78B252523A10020DA45 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F0F7C79D252523A30020DA45 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F0F7C78B252523A10020DA45;
+					};
+					F0F7C7A8252523A30020DA45 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F0F7C78B252523A10020DA45;
+					};
+				};
+			};
+			buildConfigurationList = F0F7C787252523A10020DA45 /* Build configuration list for PBXProject "ShuffletheArray" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0F7C783252523A10020DA45;
+			productRefGroup = F0F7C78D252523A10020DA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F7C78B252523A10020DA45 /* ShuffletheArray */,
+				F0F7C79D252523A30020DA45 /* ShuffletheArrayTests */,
+				F0F7C7A8252523A30020DA45 /* ShuffletheArrayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0F7C78A252523A10020DA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F7C794252523A30020DA45 /* Assets.xcassets in Resources */,
+				F0F7C797252523A30020DA45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F7C79C252523A30020DA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F7C7A7252523A30020DA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0F7C788252523A10020DA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F7C792252523A10020DA45 /* ViewController.swift in Sources */,
+				F0F7C7BF252524240020DA45 /* ShuffleTheArray.swift in Sources */,
+				F0F7C7FE2526356A0020DA45 /* ShuffleString.swift in Sources */,
+				F0F7C7D52525539C0020DA45 /* DefragIpAddress.swift in Sources */,
+				F0F7C790252523A10020DA45 /* AppDelegate.swift in Sources */,
+				F0F7C7CA25254D980020DA45 /* NumberOfPairs.swift in Sources */,
+				F0F7C7EB2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
+				F0F7C7E025255A150020DA45 /* JewelsandStones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F7C79A252523A30020DA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F7C7A3252523A30020DA45 /* ShuffletheArrayTests.swift in Sources */,
+				F0F7C7E125255A150020DA45 /* JewelsandStones.swift in Sources */,
+				F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */,
+				F0F7C7C0252524240020DA45 /* ShuffleTheArray.swift in Sources */,
+				F0F7C7D62525539C0020DA45 /* DefragIpAddress.swift in Sources */,
+				F0F7C7E62525E5ED0020DA45 /* NumberOfStepsTests.swift in Sources */,
+				F0F7C7F9252635080020DA45 /* ShuffleStringTests.swift in Sources */,
+				F0F7C7EC2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
+				F0F7C7C525254D460020DA45 /* NumberofGoodPairsTests.swift in Sources */,
+				F0F7C7D02525534C0020DA45 /* DefragIPAddressTests.swift in Sources */,
+				F0F7C7DB252559B10020DA45 /* JewelsandStonesTests.swift in Sources */,
+				F0F7C7CB25254D980020DA45 /* NumberOfPairs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F7C7A5252523A30020DA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F7C7AE252523A30020DA45 /* ShuffletheArrayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0F7C7A0252523A30020DA45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F7C78B252523A10020DA45 /* ShuffletheArray */;
+			targetProxy = F0F7C79F252523A30020DA45 /* PBXContainerItemProxy */;
+		};
+		F0F7C7AB252523A30020DA45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F7C78B252523A10020DA45 /* ShuffletheArray */;
+			targetProxy = F0F7C7AA252523A30020DA45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0F7C795252523A30020DA45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F7C796252523A30020DA45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0F7C7B0252523A30020DA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0F7C7B1252523A30020DA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F0F7C7B3252523A30020DA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShuffletheArray/ShuffletheArray.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ShuffletheArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.ShuffletheArray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0F7C7B4252523A30020DA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShuffletheArray/ShuffletheArray.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ShuffletheArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.ShuffletheArray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F0F7C7B6252523A30020DA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = ShuffletheArrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.ShuffletheArrayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuffletheArray.app/Contents/MacOS/ShuffletheArray";
+			};
+			name = Debug;
+		};
+		F0F7C7B7252523A30020DA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = ShuffletheArrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.ShuffletheArrayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuffletheArray.app/Contents/MacOS/ShuffletheArray";
+			};
+			name = Release;
+		};
+		F0F7C7B9252523A30020DA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = ShuffletheArrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.ShuffletheArrayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShuffletheArray;
+			};
+			name = Debug;
+		};
+		F0F7C7BA252523A30020DA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = ShuffletheArrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.ShuffletheArrayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShuffletheArray;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0F7C787252523A10020DA45 /* Build configuration list for PBXProject "ShuffletheArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F7C7B0252523A30020DA45 /* Debug */,
+				F0F7C7B1252523A30020DA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F7C7B2252523A30020DA45 /* Build configuration list for PBXNativeTarget "ShuffletheArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F7C7B3252523A30020DA45 /* Debug */,
+				F0F7C7B4252523A30020DA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F7C7B5252523A30020DA45 /* Build configuration list for PBXNativeTarget "ShuffletheArrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F7C7B6252523A30020DA45 /* Debug */,
+				F0F7C7B7252523A30020DA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F7C7B8252523A30020DA45 /* Build configuration list for PBXNativeTarget "ShuffletheArrayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F7C7B9252523A30020DA45 /* Debug */,
+				F0F7C7BA252523A30020DA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0F7C784252523A10020DA45 /* Project object */;
+}
