@@ -30,6 +30,9 @@
 		F0F7C7F9252635080020DA45 /* ShuffleStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7F8252635080020DA45 /* ShuffleStringTests.swift */; };
 		F0F7C7FE2526356A0020DA45 /* ShuffleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */; };
 		F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */; };
+		F0F7C80425263D200020DA45 /* SmallerThanCurrentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C80325263D200020DA45 /* SmallerThanCurrentTests.swift */; };
+		F0F7C80925263DA30020DA45 /* SmallerThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C80825263DA30020DA45 /* SmallerThanCurrent.swift */; };
+		F0F7C80A25263DA30020DA45 /* SmallerThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C80825263DA30020DA45 /* SmallerThanCurrent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,8 @@
 		F0F7C7EA2525E6400020DA45 /* NumberOfSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfSteps.swift; sourceTree = "<group>"; };
 		F0F7C7F8252635080020DA45 /* ShuffleStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleStringTests.swift; sourceTree = "<group>"; };
 		F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleString.swift; sourceTree = "<group>"; };
+		F0F7C80325263D200020DA45 /* SmallerThanCurrentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerThanCurrentTests.swift; sourceTree = "<group>"; };
+		F0F7C80825263DA30020DA45 /* SmallerThanCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerThanCurrent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,7 @@
 				F0F7C7DF25255A150020DA45 /* JewelsandStones.swift */,
 				F0F7C7EA2525E6400020DA45 /* NumberOfSteps.swift */,
 				F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */,
+				F0F7C80825263DA30020DA45 /* SmallerThanCurrent.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 				F0F7C7DA252559B10020DA45 /* JewelsandStonesTests.swift */,
 				F0F7C7E52525E5ED0020DA45 /* NumberOfStepsTests.swift */,
 				F0F7C7F8252635080020DA45 /* ShuffleStringTests.swift */,
+				F0F7C80325263D200020DA45 /* SmallerThanCurrentTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -293,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F7C792252523A10020DA45 /* ViewController.swift in Sources */,
+				F0F7C80925263DA30020DA45 /* SmallerThanCurrent.swift in Sources */,
 				F0F7C7BF252524240020DA45 /* ShuffleTheArray.swift in Sources */,
 				F0F7C7FE2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7D52525539C0020DA45 /* DefragIpAddress.swift in Sources */,
@@ -311,8 +319,10 @@
 				F0F7C7E125255A150020DA45 /* JewelsandStones.swift in Sources */,
 				F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7C0252524240020DA45 /* ShuffleTheArray.swift in Sources */,
+				F0F7C80425263D200020DA45 /* SmallerThanCurrentTests.swift in Sources */,
 				F0F7C7D62525539C0020DA45 /* DefragIpAddress.swift in Sources */,
 				F0F7C7E62525E5ED0020DA45 /* NumberOfStepsTests.swift in Sources */,
+				F0F7C80A25263DA30020DA45 /* SmallerThanCurrent.swift in Sources */,
 				F0F7C7F9252635080020DA45 /* ShuffleStringTests.swift in Sources */,
 				F0F7C7EC2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
 				F0F7C7C525254D460020DA45 /* NumberofGoodPairsTests.swift in Sources */,
