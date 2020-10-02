@@ -36,6 +36,12 @@
 		F0F7C80F252642B70020DA45 /* MaxDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C80E252642B70020DA45 /* MaxDistanceTests.swift */; };
 		F0F7C8142526433F0020DA45 /* MaxDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8132526433F0020DA45 /* MaxDistance.swift */; };
 		F0F7C8152526433F0020DA45 /* MaxDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8132526433F0020DA45 /* MaxDistance.swift */; };
+		F0F7C81A2527A7C20020DA45 /* CombinationSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8192527A7C20020DA45 /* CombinationSumTests.swift */; };
+		F0F7C81F2527A8140020DA45 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C81E2527A8140020DA45 /* CombinationSum.swift */; };
+		F0F7C8202527A8140020DA45 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C81E2527A8140020DA45 /* CombinationSum.swift */; };
+		F0F7C8252527B89E0020DA45 /* SubtractProductAndSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */; };
+		F0F7C82A2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */; };
+		F0F7C82B2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +90,10 @@
 		F0F7C80825263DA30020DA45 /* SmallerThanCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerThanCurrent.swift; sourceTree = "<group>"; };
 		F0F7C80E252642B70020DA45 /* MaxDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDistanceTests.swift; sourceTree = "<group>"; };
 		F0F7C8132526433F0020DA45 /* MaxDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDistance.swift; sourceTree = "<group>"; };
+		F0F7C8192527A7C20020DA45 /* CombinationSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumTests.swift; sourceTree = "<group>"; };
+		F0F7C81E2527A8140020DA45 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
+		F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractProductAndSumTests.swift; sourceTree = "<group>"; };
+		F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractProductAndSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +158,8 @@
 				F0F7C7FD2526356A0020DA45 /* ShuffleString.swift */,
 				F0F7C80825263DA30020DA45 /* SmallerThanCurrent.swift */,
 				F0F7C8132526433F0020DA45 /* MaxDistance.swift */,
+				F0F7C81E2527A8140020DA45 /* CombinationSum.swift */,
+				F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -164,6 +176,8 @@
 				F0F7C7F8252635080020DA45 /* ShuffleStringTests.swift */,
 				F0F7C80325263D200020DA45 /* SmallerThanCurrentTests.swift */,
 				F0F7C80E252642B70020DA45 /* MaxDistanceTests.swift */,
+				F0F7C8192527A7C20020DA45 /* CombinationSumTests.swift */,
+				F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -308,10 +322,12 @@
 			files = (
 				F0F7C792252523A10020DA45 /* ViewController.swift in Sources */,
 				F0F7C80925263DA30020DA45 /* SmallerThanCurrent.swift in Sources */,
+				F0F7C81F2527A8140020DA45 /* CombinationSum.swift in Sources */,
 				F0F7C7BF252524240020DA45 /* ShuffleTheArray.swift in Sources */,
 				F0F7C7FE2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7D52525539C0020DA45 /* DefragIpAddress.swift in Sources */,
 				F0F7C790252523A10020DA45 /* AppDelegate.swift in Sources */,
+				F0F7C82A2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */,
 				F0F7C7CA25254D980020DA45 /* NumberOfPairs.swift in Sources */,
 				F0F7C8142526433F0020DA45 /* MaxDistance.swift in Sources */,
 				F0F7C7EB2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
@@ -336,9 +352,13 @@
 				F0F7C7EC2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
 				F0F7C7C525254D460020DA45 /* NumberofGoodPairsTests.swift in Sources */,
 				F0F7C7D02525534C0020DA45 /* DefragIPAddressTests.swift in Sources */,
+				F0F7C8252527B89E0020DA45 /* SubtractProductAndSumTests.swift in Sources */,
 				F0F7C8152526433F0020DA45 /* MaxDistance.swift in Sources */,
 				F0F7C7DB252559B10020DA45 /* JewelsandStonesTests.swift in Sources */,
+				F0F7C8202527A8140020DA45 /* CombinationSum.swift in Sources */,
+				F0F7C81A2527A7C20020DA45 /* CombinationSumTests.swift in Sources */,
 				F0F7C7CB25254D980020DA45 /* NumberOfPairs.swift in Sources */,
+				F0F7C82B2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
