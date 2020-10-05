@@ -21,5 +21,33 @@ class CombinationSumTests: XCTestCase {
         let cs = CombinationSum()
         XCTAssertNotNil(cs)
     }
+    
+    func testThatGiveAListWithASingleValueTheReTurnSetIsThatValue() {
+        let cs = CombinationSum()
+        let output = cs.combinationSum([7],7)
+        let expected = [[7]]
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testThatGivenAnInputListContainingOneWithTargetTwoExpectOneOne() {
+        let cs = CombinationSum()
+        let output = cs.combinationSum([1],2)
+        let expected = [[1,1]]
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testLeetCodeExampleTwo() {
+        let cs = CombinationSum()
+        let output = cs.combinationSum([2],1)
+        let expected = [[0]]
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testLeetCodeExampleOne() {
+        let cs = CombinationSum()
+        let output = cs.combinationSum([2,3,6,7],7)
+        let expected = [[2,2,3],[7]]
+        XCTAssertEqual(output, expected)
+    }
 
 }

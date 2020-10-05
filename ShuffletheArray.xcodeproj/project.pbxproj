@@ -42,6 +42,9 @@
 		F0F7C8252527B89E0020DA45 /* SubtractProductAndSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */; };
 		F0F7C82A2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */; };
 		F0F7C82B2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */; };
+		F0F7C830252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C82F252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift */; };
+		F0F7C835252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */; };
+		F0F7C836252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +97,8 @@
 		F0F7C81E2527A8140020DA45 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
 		F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractProductAndSumTests.swift; sourceTree = "<group>"; };
 		F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractProductAndSum.swift; sourceTree = "<group>"; };
+		F0F7C82F252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompressRunLengthEncodingListTests.swift; sourceTree = "<group>"; };
+		F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompressRunLengthEncodingList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +165,7 @@
 				F0F7C8132526433F0020DA45 /* MaxDistance.swift */,
 				F0F7C81E2527A8140020DA45 /* CombinationSum.swift */,
 				F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */,
+				F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 				F0F7C80E252642B70020DA45 /* MaxDistanceTests.swift */,
 				F0F7C8192527A7C20020DA45 /* CombinationSumTests.swift */,
 				F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */,
+				F0F7C82F252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -329,6 +336,7 @@
 				F0F7C790252523A10020DA45 /* AppDelegate.swift in Sources */,
 				F0F7C82A2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */,
 				F0F7C7CA25254D980020DA45 /* NumberOfPairs.swift in Sources */,
+				F0F7C835252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */,
 				F0F7C8142526433F0020DA45 /* MaxDistance.swift in Sources */,
 				F0F7C7EB2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
 				F0F7C7E025255A150020DA45 /* JewelsandStones.swift in Sources */,
@@ -342,6 +350,7 @@
 				F0F7C7A3252523A30020DA45 /* ShuffletheArrayTests.swift in Sources */,
 				F0F7C7E125255A150020DA45 /* JewelsandStones.swift in Sources */,
 				F0F7C80F252642B70020DA45 /* MaxDistanceTests.swift in Sources */,
+				F0F7C836252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */,
 				F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7C0252524240020DA45 /* ShuffleTheArray.swift in Sources */,
 				F0F7C80425263D200020DA45 /* SmallerThanCurrentTests.swift in Sources */,
@@ -358,6 +367,7 @@
 				F0F7C8202527A8140020DA45 /* CombinationSum.swift in Sources */,
 				F0F7C81A2527A7C20020DA45 /* CombinationSumTests.swift in Sources */,
 				F0F7C7CB25254D980020DA45 /* NumberOfPairs.swift in Sources */,
+				F0F7C830252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift in Sources */,
 				F0F7C82B2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
