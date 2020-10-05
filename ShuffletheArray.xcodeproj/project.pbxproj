@@ -45,6 +45,9 @@
 		F0F7C830252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C82F252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift */; };
 		F0F7C835252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */; };
 		F0F7C836252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */; };
+		F0F7C83B252B8F710020DA45 /* SingleRowKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C83A252B8F710020DA45 /* SingleRowKeyboardTests.swift */; };
+		F0F7C840252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */; };
+		F0F7C841252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +102,8 @@
 		F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractProductAndSum.swift; sourceTree = "<group>"; };
 		F0F7C82F252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompressRunLengthEncodingListTests.swift; sourceTree = "<group>"; };
 		F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompressRunLengthEncodingList.swift; sourceTree = "<group>"; };
+		F0F7C83A252B8F710020DA45 /* SingleRowKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRowKeyboardTests.swift; sourceTree = "<group>"; };
+		F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRowKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +171,7 @@
 				F0F7C81E2527A8140020DA45 /* CombinationSum.swift */,
 				F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */,
 				F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */,
+				F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -185,6 +191,7 @@
 				F0F7C8192527A7C20020DA45 /* CombinationSumTests.swift */,
 				F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */,
 				F0F7C82F252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift */,
+				F0F7C83A252B8F710020DA45 /* SingleRowKeyboardTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -330,6 +337,7 @@
 				F0F7C792252523A10020DA45 /* ViewController.swift in Sources */,
 				F0F7C80925263DA30020DA45 /* SmallerThanCurrent.swift in Sources */,
 				F0F7C81F2527A8140020DA45 /* CombinationSum.swift in Sources */,
+				F0F7C840252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */,
 				F0F7C7BF252524240020DA45 /* ShuffleTheArray.swift in Sources */,
 				F0F7C7FE2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7D52525539C0020DA45 /* DefragIpAddress.swift in Sources */,
@@ -364,9 +372,11 @@
 				F0F7C8252527B89E0020DA45 /* SubtractProductAndSumTests.swift in Sources */,
 				F0F7C8152526433F0020DA45 /* MaxDistance.swift in Sources */,
 				F0F7C7DB252559B10020DA45 /* JewelsandStonesTests.swift in Sources */,
+				F0F7C83B252B8F710020DA45 /* SingleRowKeyboardTests.swift in Sources */,
 				F0F7C8202527A8140020DA45 /* CombinationSum.swift in Sources */,
 				F0F7C81A2527A7C20020DA45 /* CombinationSumTests.swift in Sources */,
 				F0F7C7CB25254D980020DA45 /* NumberOfPairs.swift in Sources */,
+				F0F7C841252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */,
 				F0F7C830252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift in Sources */,
 				F0F7C82B2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */,
 			);
