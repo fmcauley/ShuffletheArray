@@ -48,6 +48,9 @@
 		F0F7C83B252B8F710020DA45 /* SingleRowKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C83A252B8F710020DA45 /* SingleRowKeyboardTests.swift */; };
 		F0F7C840252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */; };
 		F0F7C841252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */; };
+		F0F7C846252BBAEE0020DA45 /* CreateTargetArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C845252BBAEE0020DA45 /* CreateTargetArrayTests.swift */; };
+		F0F7C84B252BBB620020DA45 /* CreateTargetArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C84A252BBB620020DA45 /* CreateTargetArray.swift */; };
+		F0F7C84C252BBB620020DA45 /* CreateTargetArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C84A252BBB620020DA45 /* CreateTargetArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +107,8 @@
 		F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompressRunLengthEncodingList.swift; sourceTree = "<group>"; };
 		F0F7C83A252B8F710020DA45 /* SingleRowKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRowKeyboardTests.swift; sourceTree = "<group>"; };
 		F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRowKeyboard.swift; sourceTree = "<group>"; };
+		F0F7C845252BBAEE0020DA45 /* CreateTargetArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTargetArrayTests.swift; sourceTree = "<group>"; };
+		F0F7C84A252BBB620020DA45 /* CreateTargetArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTargetArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +177,7 @@
 				F0F7C8292527B8DD0020DA45 /* SubtractProductAndSum.swift */,
 				F0F7C834252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift */,
 				F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */,
+				F0F7C84A252BBB620020DA45 /* CreateTargetArray.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 				F0F7C8242527B89E0020DA45 /* SubtractProductAndSumTests.swift */,
 				F0F7C82F252B60C90020DA45 /* DecompressRunLengthEncodingListTests.swift */,
 				F0F7C83A252B8F710020DA45 /* SingleRowKeyboardTests.swift */,
+				F0F7C845252BBAEE0020DA45 /* CreateTargetArrayTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -335,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F7C792252523A10020DA45 /* ViewController.swift in Sources */,
+				F0F7C84B252BBB620020DA45 /* CreateTargetArray.swift in Sources */,
 				F0F7C80925263DA30020DA45 /* SmallerThanCurrent.swift in Sources */,
 				F0F7C81F2527A8140020DA45 /* CombinationSum.swift in Sources */,
 				F0F7C840252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */,
@@ -355,12 +363,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F7C84C252BBB620020DA45 /* CreateTargetArray.swift in Sources */,
 				F0F7C7A3252523A30020DA45 /* ShuffletheArrayTests.swift in Sources */,
 				F0F7C7E125255A150020DA45 /* JewelsandStones.swift in Sources */,
 				F0F7C80F252642B70020DA45 /* MaxDistanceTests.swift in Sources */,
 				F0F7C836252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */,
 				F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7C0252524240020DA45 /* ShuffleTheArray.swift in Sources */,
+				F0F7C846252BBAEE0020DA45 /* CreateTargetArrayTests.swift in Sources */,
 				F0F7C80425263D200020DA45 /* SmallerThanCurrentTests.swift in Sources */,
 				F0F7C7D62525539C0020DA45 /* DefragIpAddress.swift in Sources */,
 				F0F7C7E62525E5ED0020DA45 /* NumberOfStepsTests.swift in Sources */,
