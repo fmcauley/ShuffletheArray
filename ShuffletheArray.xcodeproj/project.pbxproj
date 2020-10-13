@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F0903EF0252D0AD60035BDBE /* XOROperationInAnArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */; };
 		F0903EF5252D0B1F0035BDBE /* XOROperationInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */; };
+		F0903EFA252E5E580035BDBE /* SplitBalancedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */; };
+		F0903EFF252E5E930035BDBE /* SplitBalancedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EFE252E5E930035BDBE /* SplitBalancedString.swift */; };
+		F0903F00252E5E930035BDBE /* SplitBalancedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EFE252E5E930035BDBE /* SplitBalancedString.swift */; };
 		F0F7C790252523A10020DA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C78F252523A10020DA45 /* AppDelegate.swift */; };
 		F0F7C792252523A10020DA45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7C791252523A10020DA45 /* ViewController.swift */; };
 		F0F7C794252523A30020DA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F7C793252523A30020DA45 /* Assets.xcassets */; };
@@ -75,6 +78,8 @@
 /* Begin PBXFileReference section */
 		F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOROperationInAnArrayTests.swift; sourceTree = "<group>"; };
 		F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOROperationInAnArray.swift; sourceTree = "<group>"; };
+		F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBalancedStringTests.swift; sourceTree = "<group>"; };
+		F0903EFE252E5E930035BDBE /* SplitBalancedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBalancedString.swift; sourceTree = "<group>"; };
 		F0F7C78C252523A10020DA45 /* ShuffletheArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffletheArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F7C78F252523A10020DA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0F7C791252523A10020DA45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +188,7 @@
 				F0F7C83F252B8FBD0020DA45 /* SingleRowKeyboard.swift */,
 				F0F7C84A252BBB620020DA45 /* CreateTargetArray.swift */,
 				F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */,
+				F0903EFE252E5E930035BDBE /* SplitBalancedString.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 				F0F7C83A252B8F710020DA45 /* SingleRowKeyboardTests.swift */,
 				F0F7C845252BBAEE0020DA45 /* CreateTargetArrayTests.swift */,
 				F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */,
+				F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -359,6 +366,7 @@
 				F0F7C790252523A10020DA45 /* AppDelegate.swift in Sources */,
 				F0F7C82A2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */,
 				F0F7C7CA25254D980020DA45 /* NumberOfPairs.swift in Sources */,
+				F0903EFF252E5E930035BDBE /* SplitBalancedString.swift in Sources */,
 				F0F7C835252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */,
 				F0F7C8142526433F0020DA45 /* MaxDistance.swift in Sources */,
 				F0F7C7EB2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
@@ -373,6 +381,7 @@
 				F0F7C84C252BBB620020DA45 /* CreateTargetArray.swift in Sources */,
 				F0F7C7A3252523A30020DA45 /* ShuffletheArrayTests.swift in Sources */,
 				F0F7C7E125255A150020DA45 /* JewelsandStones.swift in Sources */,
+				F0903F00252E5E930035BDBE /* SplitBalancedString.swift in Sources */,
 				F0F7C80F252642B70020DA45 /* MaxDistanceTests.swift in Sources */,
 				F0F7C836252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */,
 				F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */,
@@ -387,6 +396,7 @@
 				F0F7C7EC2525E6400020DA45 /* NumberOfSteps.swift in Sources */,
 				F0F7C7C525254D460020DA45 /* NumberofGoodPairsTests.swift in Sources */,
 				F0F7C7D02525534C0020DA45 /* DefragIPAddressTests.swift in Sources */,
+				F0903EFA252E5E580035BDBE /* SplitBalancedStringTests.swift in Sources */,
 				F0F7C8252527B89E0020DA45 /* SubtractProductAndSumTests.swift in Sources */,
 				F0F7C8152526433F0020DA45 /* MaxDistance.swift in Sources */,
 				F0F7C7DB252559B10020DA45 /* JewelsandStonesTests.swift in Sources */,
