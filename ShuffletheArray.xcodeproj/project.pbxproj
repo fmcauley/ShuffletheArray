@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F079275D2535F7C2006937A1 /* DesignParkingSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F079275C2535F7C2006937A1 /* DesignParkingSystemTests.swift */; };
+		F07927622535F815006937A1 /* DesignParkingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07927612535F815006937A1 /* DesignParkingSystem.swift */; };
 		F0903EF0252D0AD60035BDBE /* XOROperationInAnArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */; };
 		F0903EF5252D0B1F0035BDBE /* XOROperationInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */; };
 		F0903EFA252E5E580035BDBE /* SplitBalancedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */; };
@@ -76,6 +78,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F079275C2535F7C2006937A1 /* DesignParkingSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignParkingSystemTests.swift; sourceTree = "<group>"; };
+		F07927612535F815006937A1 /* DesignParkingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignParkingSystem.swift; sourceTree = "<group>"; };
 		F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOROperationInAnArrayTests.swift; sourceTree = "<group>"; };
 		F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOROperationInAnArray.swift; sourceTree = "<group>"; };
 		F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBalancedStringTests.swift; sourceTree = "<group>"; };
@@ -189,6 +193,7 @@
 				F0F7C84A252BBB620020DA45 /* CreateTargetArray.swift */,
 				F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */,
 				F0903EFE252E5E930035BDBE /* SplitBalancedString.swift */,
+				F07927612535F815006937A1 /* DesignParkingSystem.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 				F0F7C845252BBAEE0020DA45 /* CreateTargetArrayTests.swift */,
 				F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */,
 				F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */,
+				F079275C2535F7C2006937A1 /* DesignParkingSystemTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -365,6 +371,7 @@
 				F0F7C7D52525539C0020DA45 /* DefragIpAddress.swift in Sources */,
 				F0F7C790252523A10020DA45 /* AppDelegate.swift in Sources */,
 				F0F7C82A2527B8DD0020DA45 /* SubtractProductAndSum.swift in Sources */,
+				F07927622535F815006937A1 /* DesignParkingSystem.swift in Sources */,
 				F0F7C7CA25254D980020DA45 /* NumberOfPairs.swift in Sources */,
 				F0903EFF252E5E930035BDBE /* SplitBalancedString.swift in Sources */,
 				F0F7C835252B65AC0020DA45 /* DecompressRunLengthEncodingList.swift in Sources */,
@@ -387,6 +394,7 @@
 				F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7C0252524240020DA45 /* ShuffleTheArray.swift in Sources */,
 				F0F7C846252BBAEE0020DA45 /* CreateTargetArrayTests.swift in Sources */,
+				F079275D2535F7C2006937A1 /* DesignParkingSystemTests.swift in Sources */,
 				F0903EF0252D0AD60035BDBE /* XOROperationInAnArrayTests.swift in Sources */,
 				F0F7C80425263D200020DA45 /* SmallerThanCurrentTests.swift in Sources */,
 				F0F7C7D62525539C0020DA45 /* DefragIpAddress.swift in Sources */,
