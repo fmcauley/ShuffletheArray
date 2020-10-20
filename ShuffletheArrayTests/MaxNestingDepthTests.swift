@@ -71,8 +71,43 @@ class MaxNestingDepthTests: XCTestCase {
         XCTAssertEqual(output, expected)
     }
     
-    // failed test set: "(1+(2*3)+((8)/4))+1"
-    //expected 3
-    //output 4
+    func testThatInPutStringCanBeFiltered() {
+        let mnd = MaxNestingDepth()
+        let output = mnd.stripChars("(2)")
+        let expected = "()"
+        
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testThatStripCharWillRemoveAllSortsOfStuff() {
+        let mnd = MaxNestingDepth()
+        let output = mnd.stripChars("(1+(2*3)+((8)/4))+1")
+        let expected = "(()(()))"
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testThatNewMaxDepthWorks() {
+        let mnd = MaxNestingDepth()
+        let output = mnd.maxDepth2("()")
+        let expected = 1
+        
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testThatMaxDepth2CanFindTwoSets() {
+        let mnd = MaxNestingDepth()
+        let output = mnd.maxDepth2("(2(3))")
+        let expected = 2
+        
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testThatComplicatedPairsAreFound() {
+        let mnd = MaxNestingDepth()
+        let output = mnd.maxDepth2("(1+(2*3)+((8)/4))+1")
+        let expected = 3
+        
+        XCTAssertEqual(output, expected)
+    }
 
 }
