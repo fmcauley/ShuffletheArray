@@ -11,15 +11,23 @@ class SplitBalancedString {
     func balancedStringSplit(_ s: String) -> Int {
        
         let strArr = Array(s)
-        var output = 0
         var counter = 0
+        var R = 0
+        var L = 0
+        var output = 0
         
         while counter < strArr.count {
-            if strArr[counter] != strArr[counter + 1] {
-                output += 1
-                counter += 2
-            } else {
+            if strArr[counter] == "R"{
+                R += 1
                 counter += 1
+            } else if strArr[counter] == "L" {
+                L += 1
+                counter += 1
+            }
+            if R > 0 && L > 0 && R == L {
+                output += 1
+                R = 0
+                L = 0
             }
         }
         return output

@@ -32,7 +32,7 @@ class SplitBalancedStringTests: XCTestCase {
         XCTAssertEqual(output, expected)
     }
     
-    func testThatTheStringRLTimes2WillReturnTwo() {
+    func testThatStringWithRLRLWillReturnTwo() {
         let sbs = SplitBalancedString()
         let inputString = "RLRL"
         let output = sbs.balancedStringSplit(inputString)
@@ -41,7 +41,25 @@ class SplitBalancedStringTests: XCTestCase {
         XCTAssertEqual(output, expected)
     }
     
-    func testLeetCodeExampleOne() {
+    func testThatStirngWithRRLLWillReturnOne() {
+        let sbs = SplitBalancedString()
+        let inputString = "RRLL"
+        let output = sbs.balancedStringSplit(inputString)
+        let expected = 1
+        
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testThatStringWithRLRRLLReturnsTwo() {
+        let sbs = SplitBalancedString()
+        let inputString = "RLRRLL"
+        let output = sbs.balancedStringSplit(inputString)
+        let expected = 2
+        
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testLeetCodeExamples(){
         let sbs = SplitBalancedString()
         let inputString = "RLRRLLRLRL"
         let output = sbs.balancedStringSplit(inputString)
@@ -50,7 +68,7 @@ class SplitBalancedStringTests: XCTestCase {
         XCTAssertEqual(output, expected)
     }
     
-    func testLeetCodeExampleTwo() {
+    func testMoreLeetCodeExamples() {
         let sbs = SplitBalancedString()
         let inputString = "RLLLLRRRLR"
         let output = sbs.balancedStringSplit(inputString)
@@ -58,5 +76,22 @@ class SplitBalancedStringTests: XCTestCase {
         
         XCTAssertEqual(output, expected)
     }
-
+    
+    func testLeetCodeExample3() {
+        let sbs = SplitBalancedString()
+        let inputString = "LLLLRRRR"
+        let output = sbs.balancedStringSplit(inputString)
+        let expected = 1
+        
+        XCTAssertEqual(output, expected)
+    }
+    
+    func testThatTheLastOneWorks() {
+        let sbs = SplitBalancedString()
+        let inputString = "RLRRRLLRLL"
+        let output = sbs.balancedStringSplit(inputString)
+        let expected = 2
+        
+        XCTAssertEqual(output, expected)
+    }
 }
