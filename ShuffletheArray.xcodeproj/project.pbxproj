@@ -11,6 +11,8 @@
 		F07927622535F815006937A1 /* DesignParkingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07927612535F815006937A1 /* DesignParkingSystem.swift */; };
 		F0792767253626AD006937A1 /* MaxNestingDepthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792766253626AD006937A1 /* MaxNestingDepthTests.swift */; };
 		F079276C25362735006937A1 /* MaxNestingDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F079276B25362735006937A1 /* MaxNestingDepth.swift */; };
+		F08C7FA42543496500666A4C /* SortArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08C7FA32543496500666A4C /* SortArrayTests.swift */; };
+		F08C7FA9254349AE00666A4C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08C7FA8254349AE00666A4C /* File.swift */; };
 		F0903EF0252D0AD60035BDBE /* XOROperationInAnArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */; };
 		F0903EF5252D0B1F0035BDBE /* XOROperationInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */; };
 		F0903EFA252E5E580035BDBE /* SplitBalancedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */; };
@@ -84,6 +86,8 @@
 		F07927612535F815006937A1 /* DesignParkingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignParkingSystem.swift; sourceTree = "<group>"; };
 		F0792766253626AD006937A1 /* MaxNestingDepthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNestingDepthTests.swift; sourceTree = "<group>"; };
 		F079276B25362735006937A1 /* MaxNestingDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNestingDepth.swift; sourceTree = "<group>"; };
+		F08C7FA32543496500666A4C /* SortArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArrayTests.swift; sourceTree = "<group>"; };
+		F08C7FA8254349AE00666A4C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		F0903EEF252D0AD60035BDBE /* XOROperationInAnArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOROperationInAnArrayTests.swift; sourceTree = "<group>"; };
 		F0903EF4252D0B1F0035BDBE /* XOROperationInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOROperationInAnArray.swift; sourceTree = "<group>"; };
 		F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBalancedStringTests.swift; sourceTree = "<group>"; };
@@ -199,6 +203,7 @@
 				F0903EFE252E5E930035BDBE /* SplitBalancedString.swift */,
 				F07927612535F815006937A1 /* DesignParkingSystem.swift */,
 				F079276B25362735006937A1 /* MaxNestingDepth.swift */,
+				F08C7FA8254349AE00666A4C /* File.swift */,
 			);
 			path = ShuffletheArray;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 				F0903EF9252E5E580035BDBE /* SplitBalancedStringTests.swift */,
 				F079275C2535F7C2006937A1 /* DesignParkingSystemTests.swift */,
 				F0792766253626AD006937A1 /* MaxNestingDepthTests.swift */,
+				F08C7FA32543496500666A4C /* SortArrayTests.swift */,
 			);
 			path = ShuffletheArrayTests;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				F079276C25362735006937A1 /* MaxNestingDepth.swift in Sources */,
 				F0F7C80925263DA30020DA45 /* SmallerThanCurrent.swift in Sources */,
 				F0F7C81F2527A8140020DA45 /* CombinationSum.swift in Sources */,
+				F08C7FA9254349AE00666A4C /* File.swift in Sources */,
 				F0F7C840252B8FBD0020DA45 /* SingleRowKeyboard.swift in Sources */,
 				F0903EF5252D0B1F0035BDBE /* XOROperationInAnArray.swift in Sources */,
 				F0F7C7BF252524240020DA45 /* ShuffleTheArray.swift in Sources */,
@@ -401,6 +408,7 @@
 				F0F7C7FF2526356A0020DA45 /* ShuffleString.swift in Sources */,
 				F0F7C7C0252524240020DA45 /* ShuffleTheArray.swift in Sources */,
 				F0F7C846252BBAEE0020DA45 /* CreateTargetArrayTests.swift in Sources */,
+				F08C7FA42543496500666A4C /* SortArrayTests.swift in Sources */,
 				F0792767253626AD006937A1 /* MaxNestingDepthTests.swift in Sources */,
 				F079275D2535F7C2006937A1 /* DesignParkingSystemTests.swift in Sources */,
 				F0903EF0252D0AD60035BDBE /* XOROperationInAnArrayTests.swift in Sources */,
